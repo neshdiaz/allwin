@@ -1,0 +1,9 @@
+{% extends 'core/base_general.html' %}
+{% load static %}
+
+{% block contenido %}
+
+  <h1>Se ha cerrado su sesión </h1>
+  <a href="{% url 'registration:login' %}">Inicie sesión nuevamente</a>
+
+{% endblock %}  

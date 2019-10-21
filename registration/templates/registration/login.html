@@ -1,0 +1,28 @@
+{% extends 'core/base_general.html' %}
+{% load static %}
+{% block contenido %}
+<style type="text/css">
+  label{
+    display:none
+  }
+</style>
+<div class="container pt-4">
+  <div class="row">
+    <div class="col-md-3 mr-2"></div>
+    <div class="col-md-6 p-4">
+      <img class= "index-logo mx-auto p-1"  src="{% static "core/img/logo.png" %}">
+      <h3>Por favor ingrese su nombre de usuario y contraseña.</h3><br>
+      <form action="" method="post">{% csrf_token %}
+        {% if form.non_field_errors %}
+          <p style="color:red">Usuario o contraseña incorrectos, prueba de nuevo.</p>
+        {% endif %}
+        <!--{{form.as_p}}-->
+        <input type="text" name="username" class="form-control mb-3" placeholder="Nombre de usuario">
+        <input type="password" name="password" class="form-control mb-3" placeholder="Contraseña">
+        <button class="btn btn-success" type = "submit">Ingresar</button>
+      </form>
+    </div>
+    <div class="col-md-2"></div>
+  </div>
+</div>  
+{% endblock %}  

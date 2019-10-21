@@ -1,0 +1,31 @@
+{% extends 'core/base_general.html' %}
+{% load static %}
+{% block contenido %}
+  <div class="container-fluid index-background" >
+    <div class="row">
+      <div class="col-md-5 p-0">
+        <div class="card index-card mb-0">
+          <img class= "index-logo mx-auto pt-2"  src="{% static "core/img/logo.png" %}" alt="">
+          <div class="card-body">
+            <br>
+            {% if referido_valid %}
+            <h6>Has accedido con el enlace de referido del usuario: <b> {{ patrocinador }}</b>
+                  entrarás como parte de su lista, en la primera posición libre disponible.</h6>
+            {% else %}
+              <h6>Este Usuario no existe por favor verifique su enlace de referido, o continuará el registro sin patrocinador"</a></h6>
+            {% endif %}
+            <h6>{{mensaje}}</h6>
+            <form action="{% url 'registration:registro' %}" method="POST"> {% csrf_token %}
+              <input type="hidden" name='patrocinador' value="{{patrocinador}}">
+              {% if referido_valid %}
+                <input class="btn btn-success" type="submit" value='Continuar con el Registro'>
+              {% else %}
+                <input class="btn btn-success" type="submit" value='Continuar sin patrocinador'>
+              {% endif %}
+            </form>
+          </div>
+        </div>
+      </div>  
+    </div>      
+  </div>
+{% endblock %}

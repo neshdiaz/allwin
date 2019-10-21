@@ -1,0 +1,22 @@
+{% extends 'core/base_general.html' %}
+{% load static %}
+{% block contenido %}
+  <div class="container-fluid index-background" >
+    <div class="row">
+      <div class="col-md-5 p-0">
+        <div class="card index-card mb-0">
+          <img class= "index-logo mx-auto pt-2"  src="{% static "core/img/logo.png" %}" alt="">
+          <div class="card-body">
+            <br>
+            <h6>Generando nuevas alternativas económicas, y oportunidades en redes online.</h6>
+            <br>Accede a nuestra plataforma o regístrate para ser socio de nuestro club.
+            <div class = "d-flex justify-content-center mt-2 p-2">
+              <a href="{% url 'core:home' %}" class="btn btn-success m-2 ">Acceder</a>
+              <a href="{% url 'registration:registro'%}" class="btn btn-success m-2 ">Registrarse</a>  
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>      
+  </div>
+{% endblock %}

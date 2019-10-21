@@ -1,0 +1,5 @@
+{
+    "python.pythonPath": "ve-all\\Scripts\\python.exe",
+    "git.ignoreLimitWarning": true,
+    "python.linting.pylintArgs": ["--disable=C0111","--load-plugins", "pylint_django"],
+}

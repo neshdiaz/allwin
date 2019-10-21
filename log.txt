@@ -1,0 +1,181 @@
+2019-07-18 18:12:28.492093+00:00 NUEVO JUGADOR Patrocinador System Jugador: Angel
+2019-07-18 18:12:28.497071+00:00 Busqueda por padre
+2019-07-18 18:12:28.505093+00:00 Buscando posicion para el nuevo jugador
+2019-07-18 18:12:28.509069+00:00 Validando usuario padre: System
+2019-07-18 18:12:28.514075+00:00 Validando lista: 1
+2019-07-18 18:12:28.522092+00:00 Se ubicó la posicion 1 libre en la lista 1
+2019-07-18 18:12:28.527080+00:00 Jugador Angel agregado a lista 1 en posicion: 1
+2019-07-18 18:13:55.263722+00:00 NUEVO JUGADOR Patrocinador Angel Jugador: Angel1
+2019-07-18 18:13:55.269726+00:00 Busqueda por padre
+2019-07-18 18:13:55.273794+00:00 Buscando posicion para el nuevo jugador
+2019-07-18 18:13:55.273794+00:00 Validando usuario padre: Angel
+2019-07-18 18:13:55.273794+00:00 Validando lista: 1
+2019-07-18 18:13:55.289443+00:00 Se ubicó la posicion 3 libre en la lista 1
+2019-07-18 18:13:55.289443+00:00 Jugador Angel1 agregado a lista 1 en posicion: 3
+2019-07-18 18:14:25.918722+00:00 NUEVO JUGADOR Patrocinador Angel Jugador: Angel2
+2019-07-18 18:14:25.920956+00:00 Busqueda por padre
+2019-07-18 18:14:25.920956+00:00 Buscando posicion para el nuevo jugador
+2019-07-18 18:14:25.920956+00:00 Validando usuario padre: Angel
+2019-07-18 18:14:25.936610+00:00 Validando lista: 1
+2019-07-18 18:14:25.936610+00:00 Se ubicó la posicion 4 libre en la lista 1
+2019-07-18 18:14:25.952210+00:00 Jugador Angel2 agregado a lista 1 en posicion: 4
+2019-07-18 18:14:25.980020+00:00 LISTA NUEVA IZQUIERDA
+2019-07-18 18:14:25.993900+00:00 Jugador Angel agregado a lista 21 en posicion: 0
+2019-07-18 18:14:25.993900+00:00 Jugador Angel1 agregado a lista 21 en posicion: 1
+2019-07-18 18:14:26.009569+00:00 Jugador Angel2 agregado a lista 21 en posicion: 2
+2019-07-18 18:14:26.041720+00:00 jugador Angel en posicion 1 se activa en verde 
+2019-07-18 18:14:50.161797+00:00 NUEVO JUGADOR Patrocinador Angel Jugador: Angel3
+2019-07-18 18:14:50.161797+00:00 Busqueda por padre
+2019-07-18 18:14:50.177404+00:00 Buscando posicion para el nuevo jugador
+2019-07-18 18:14:50.177404+00:00 Validando usuario padre: Angel
+2019-07-18 18:14:50.177404+00:00 Validando lista: 1
+2019-07-18 18:14:50.199571+00:00 No se encontró una posicion disponible en la                      lista 1
+2019-07-18 18:14:50.199571+00:00 Buscando posicion para el nuevo jugador
+2019-07-18 18:14:50.199571+00:00 Validando usuario padre: Angel
+2019-07-18 18:14:50.215215+00:00 Validando lista: 21
+2019-07-18 18:14:50.215215+00:00 Se ubicó la posicion 3 libre en la lista 21
+2019-07-18 18:14:50.230842+00:00 Jugador Angel3 agregado a lista 21 en posicion: 3
+2019-07-18 18:24:08.513899+00:00 NUEVO JUGADOR Patrocinador System Jugador: Asia77
+2019-07-18 18:24:08.513899+00:00 Busqueda por padre
+2019-07-18 18:24:08.529517+00:00 Buscando posicion para el nuevo jugador
+2019-07-18 18:24:08.529517+00:00 Validando usuario padre: System
+2019-07-18 18:24:08.545144+00:00 Validando lista: 1
+2019-07-18 18:24:08.551176+00:00 Se ubicó la posicion 2 libre en la lista 1
+2019-07-18 18:24:08.551176+00:00 Jugador Asia77 agregado a lista 1 en posicion: 2
+2019-07-18 18:24:08.582448+00:00 jugador Angel en posicion 1 se activa en verde 
+2019-07-18 18:24:22.540152+00:00 NUEVO JUGADOR Patrocinador Angel Jugador: Angel4
+2019-07-18 18:24:22.555780+00:00 Busqueda por padre
+2019-07-18 18:24:22.555780+00:00 Buscando posicion para el nuevo jugador
+2019-07-18 18:24:22.571401+00:00 Validando usuario padre: Angel
+2019-07-18 18:24:22.571401+00:00 Validando lista: 1
+2019-07-18 18:24:22.587029+00:00 Se ubicó la posicion 5 libre en la lista 1
+2019-07-18 18:24:22.604662+00:00 Jugador Angel4 agregado a lista 1 en posicion: 5
+2019-07-18 18:24:22.635934+00:00 CICLAJE
+2019-07-18 18:24:22.651556+00:00 Jugador a ciclar Angel
+2019-07-18 18:24:22.667181+00:00  id patrocinador del patrocinador System
+2019-07-18 18:24:22.667181+00:00 Busqueda por padre
+2019-07-18 18:24:22.682808+00:00 Buscando posicion para el nuevo jugador
+2019-07-18 18:24:22.698432+00:00 Validando usuario padre: System
+2019-07-18 18:24:22.704448+00:00 Validando lista: 1
+2019-07-18 18:24:22.720090+00:00 No se encontró una posicion disponible en la                      lista 1
+2019-07-18 18:24:22.720090+00:00 Busqueda por descendencia
+2019-07-18 18:43:46.880403+00:00 NUEVO JUGADOR Patrocinador Angel Jugador: Angel4
+2019-07-18 18:43:46.896008+00:00 Busqueda por padre
+2019-07-18 18:43:46.896008+00:00 Buscando posicion para el nuevo jugador
+2019-07-18 18:43:46.911664+00:00 Validando usuario padre: Angel
+2019-07-18 18:43:46.911664+00:00 Validando lista: 1
+2019-07-18 18:43:46.927281+00:00 Se ubicó la posicion 5 libre en la lista 1
+2019-07-18 18:43:46.927281+00:00 Jugador Angel4 agregado a lista 1 en posicion: 5
+2019-07-18 18:43:46.949418+00:00 CICLAJE
+2019-07-18 18:43:46.966373+00:00 Jugador a ciclar Angel
+2019-07-18 18:43:46.974373+00:00  id patrocinador del patrocinador System
+2019-07-18 18:43:46.979390+00:00 Busqueda por padre
+2019-07-18 18:43:46.988115+00:00 Buscando posicion para el nuevo jugador
+2019-07-18 18:43:46.993128+00:00 Validando usuario padre: System
+2019-07-18 18:43:46.998106+00:00 Validando lista: 1
+2019-07-18 18:43:47.000200+00:00 No se encontró una posicion disponible en la                      lista 1
+2019-07-18 18:43:47.000200+00:00 Busqueda por descendencia
+2019-07-18 18:43:47.015831+00:00 Busqueda lista más antigua
+2019-07-18 18:43:47.015831+00:00 Buscando posicion para el nuevo jugador
+2019-07-18 18:43:47.031458+00:00 Validando usuario padre: Angel
+2019-07-18 18:43:47.031458+00:00 Validando lista: 1
+2019-07-18 18:43:47.047100+00:00 Se ubicó la posicion 6 libre en la lista 1
+2019-07-18 18:43:47.049615+00:00 Jugador ciclado Angel agregado a lista 1 en posicion: 6
+2019-07-18 18:43:47.083733+00:00 LISTA NUEVA CICLAJE
+2019-07-18 18:43:47.105718+00:00 Jugador Asia77 agregado a lista 22 en posicion: 0
+2019-07-18 18:43:47.113715+00:00 Jugador Angel4 agregado a lista 22 en posicion: 1
+2019-07-18 18:43:47.121718+00:00 Jugador Angel agregado a lista 22 en posicion: 2
+2019-07-18 18:43:47.153711+00:00 jugador Angel en posicion 2 se activa en verde
+2019-07-18 18:46:49.968285+00:00 NUEVO JUGADOR Patrocinador Angel Jugador: Angel5
+2019-07-18 18:46:49.968285+00:00 Busqueda por padre
+2019-07-18 18:46:49.968285+00:00 Buscando posicion para el nuevo jugador
+2019-07-18 18:46:49.983951+00:00 Validando usuario padre: Angel
+2019-07-18 18:46:49.983951+00:00 Validando lista: 21
+2019-07-18 18:46:49.999579+00:00 Se ubicó la posicion 4 libre en la lista 21
+2019-07-18 18:46:49.999579+00:00 Jugador Angel5 agregado a lista 21 en posicion: 4
+2019-07-18 18:46:50.033627+00:00 LISTA NUEVA IZQUIERDA
+2019-07-18 18:46:50.060620+00:00 Jugador Angel1 agregado a lista 23 en posicion: 0
+2019-07-18 18:46:50.068622+00:00 Jugador Angel3 agregado a lista 23 en posicion: 1
+2019-07-18 18:46:50.077634+00:00 Jugador Angel5 agregado a lista 23 en posicion: 2
+2019-07-18 18:47:22.734796+00:00 NUEVO JUGADOR Patrocinador Angel Jugador: Angel6
+2019-07-18 18:47:22.750424+00:00 Busqueda por padre
+2019-07-18 18:47:22.766049+00:00 Buscando posicion para el nuevo jugador
+2019-07-18 18:47:22.766049+00:00 Validando usuario padre: Angel
+2019-07-18 18:47:22.781676+00:00 Validando lista: 21
+2019-07-18 18:47:22.781676+00:00 Se ubicó la posicion 5 libre en la lista 21
+2019-07-18 18:47:22.797302+00:00 Jugador Angel6 agregado a lista 21 en posicion: 5
+2019-07-18 18:47:22.819474+00:00 CICLAJE
+2019-07-18 18:47:22.852454+00:00 Jugador a ciclar Angel
+2019-07-18 18:47:22.864454+00:00  id patrocinador del patrocinador System
+2019-07-18 18:47:22.872456+00:00 Busqueda por padre
+2019-07-18 18:47:22.881514+00:00 Busqueda por descendencia
+2019-07-18 18:47:22.881514+00:00 Busqueda lista más antigua
+2019-07-18 18:47:22.904163+00:00 Buscando posicion para el nuevo jugador
+2019-07-18 18:47:22.904163+00:00 Validando usuario padre: Angel
+2019-07-18 18:47:22.919812+00:00 Validando lista: 21
+2019-07-18 18:47:22.935431+00:00 Se ubicó la posicion 6 libre en la lista 21
+2019-07-18 18:47:22.935431+00:00 Jugador ciclado Angel agregado a lista 21 en posicion: 6
+2019-07-18 18:47:22.983915+00:00 LISTA NUEVA CICLAJE
+2019-07-18 18:47:23.015915+00:00 Jugador Angel2 agregado a lista 24 en posicion: 0
+2019-07-18 18:47:23.025913+00:00 Jugador Angel6 agregado a lista 24 en posicion: 1
+2019-07-18 18:47:23.036912+00:00 Jugador Angel agregado a lista 24 en posicion: 2
+2019-07-18 18:47:23.064359+00:00 jugador Angel en posicion 2 se activa en verde
+2019-10-21 01:56:13.245448+00:00 NUEVO JUGADOR Patrocinador None Jugador: System
+2019-10-21 01:56:13.245448+00:00 Busqueda por padre
+2019-10-21 01:56:13.245448+00:00 Busqueda por descendencia
+2019-10-21 01:56:13.245448+00:00 Busqueda lista más antigua
+2019-10-21 01:56:13.253447+00:00 Jugador System agregado a lista 1 en posicion: 0
+2019-10-21 02:06:30.354891+00:00 NUEVO JUGADOR Patrocinador System Jugador: Eric
+2019-10-21 02:06:30.354891+00:00 Busqueda por padre
+2019-10-21 02:06:30.358893+00:00 Buscando posicion para el nuevo jugador
+2019-10-21 02:06:30.362911+00:00 Validando usuario padre: System
+2019-10-21 02:06:30.362911+00:00 Validando lista: 1
+2019-10-21 02:06:30.366889+00:00 Se ubicó la posicion 1 libre en la lista 1
+2019-10-21 02:06:30.370889+00:00 Jugador Eric agregado a lista 1 en posicion: 1
+2019-10-21 02:07:36.825638+00:00 NUEVO JUGADOR Patrocinador System Jugador: Darson
+2019-10-21 02:07:36.825638+00:00 Busqueda por padre
+2019-10-21 02:07:36.829636+00:00 Buscando posicion para el nuevo jugador
+2019-10-21 02:07:36.829636+00:00 Validando usuario padre: System
+2019-10-21 02:07:36.829636+00:00 Validando lista: 1
+2019-10-21 02:07:36.837636+00:00 Se ubicó la posicion 2 libre en la lista 1
+2019-10-21 02:07:36.837636+00:00 Jugador Darson agregado a lista 1 en posicion: 2
+2019-10-21 02:09:54.682273+00:00 NUEVO JUGADOR Patrocinador Darson Jugador: migue
+2019-10-21 02:09:54.686275+00:00 Busqueda por padre
+2019-10-21 02:09:54.690273+00:00 Buscando posicion para el nuevo jugador
+2019-10-21 02:09:54.690273+00:00 Validando usuario padre: Darson
+2019-10-21 02:09:54.690273+00:00 Validando lista: 1
+2019-10-21 02:09:54.694257+00:00 Se ubicó la posicion 5 libre en la lista 1
+2019-10-21 02:09:54.698253+00:00 Jugador migue agregado a lista 1 en posicion: 5
+2019-10-21 02:09:54.726249+00:00 CICLAJE
+2019-10-21 02:09:54.730249+00:00 Jugador a ciclar System
+2019-10-21 02:09:54.730249+00:00  id patrocinador del patrocinador None
+2019-10-21 02:09:54.734246+00:00 Busqueda por padre
+2019-10-21 02:09:54.734246+00:00 Busqueda por descendencia
+2019-10-21 02:09:54.734246+00:00 Busqueda lista más antigua
+2019-10-21 02:09:54.738247+00:00 Buscando posicion para el nuevo jugador
+2019-10-21 02:09:54.742243+00:00 Validando usuario padre: System
+2019-10-21 02:09:54.742243+00:00 Validando lista: 1
+2019-10-21 02:09:54.746264+00:00 Se ubicó la posicion 3 libre en la lista 1
+2019-10-21 02:09:54.754249+00:00 Jugador ciclado System agregado a lista 1 en posicion: 3
+2019-10-21 16:54:40.036093+00:00 NUEVO JUGADOR Patrocinador Darson Jugador: bula
+2019-10-21 16:54:40.037093+00:00 Busqueda por padre
+2019-10-21 16:54:40.043089+00:00 Buscando posicion para el nuevo jugador
+2019-10-21 16:54:40.044105+00:00 Validando usuario padre: Darson
+2019-10-21 16:54:40.045089+00:00 Validando lista: 1
+2019-10-21 16:54:40.050085+00:00 Se ubicó la posicion 6 libre en la lista 1
+2019-10-21 16:54:40.052084+00:00 Jugador bula agregado a lista 1 en posicion: 6
+2019-10-21 16:54:40.086067+00:00 LISTA NUEVA CICLAJE
+2019-10-21 16:54:40.104054+00:00 Jugador Darson agregado a lista 2 en posicion: 0
+2019-10-21 16:54:40.108068+00:00 Jugador migue agregado a lista 2 en posicion: 1
+2019-10-21 16:54:40.112066+00:00 Jugador bula agregado a lista 2 en posicion: 2
+2019-10-21 16:56:36.774041+00:00 NUEVO JUGADOR Patrocinador migue Jugador: migue1
+2019-10-21 16:56:36.775041+00:00 Busqueda por padre
+2019-10-21 16:56:36.780037+00:00 Buscando posicion para el nuevo jugador
+2019-10-21 16:56:36.780037+00:00 Validando usuario padre: migue
+2019-10-21 16:56:36.781037+00:00 Validando lista: 1
+2019-10-21 16:56:36.786054+00:00 No se encontró una posicion disponible en la                      lista 1
+2019-10-21 16:56:36.787033+00:00 Buscando posicion para el nuevo jugador
+2019-10-21 16:56:36.788050+00:00 Validando usuario padre: migue
+2019-10-21 16:56:36.789032+00:00 Validando lista: 2
+2019-10-21 16:56:36.794032+00:00 Se ubicó la posicion 3 libre en la lista 2
+2019-10-21 16:56:36.797049+00:00 Jugador migue1 agregado a lista 2 en posicion: 3

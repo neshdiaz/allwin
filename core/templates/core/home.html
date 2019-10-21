@@ -1,0 +1,134 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+
+{% block contenido %}
+  <h3> Bienvenido {{ request.user }}</h3>
+  
+  
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        Este es tu enlace de referido:
+        <div class="input-group">
+            <input id="txtEnlaceReferido" class="form-control" value="{{base_url}}{% url 'registration:registro_referido' request.user %}" name=""  readonly> 
+            <span class= input-group-btn> 
+              <button id="btnCopiar" class="btn btn-primary">Copiar</button>
+              <button id = "btnWhatsapp">
+                <img height="30px" src="{% static "core/img/wa.png" %}" alt="Compartir en whatsapp">  
+              </button>              
+            </span>
+          </div>
+      </div>  
+    </div>
+    
+    
+    <div class="row">
+
+      <div class="col-md-6">
+        <div class="card w-100">
+          <h6 class="card-header"> Mis Listas </h6>
+          <div class="card-body scroll-list" style="height: 18rem;">
+            <p class="card-text">
+                <div id ="listasContainer"></div>
+            </p>
+          </div>
+        </div>
+      </div>
+
+<!--codigo actual para cargar los jugadores de la lista   -->    
+
+      <div class="col-md-6">
+        <div class="card w-100">
+          <h6 class="card-header">
+            <div id="encabezado_lista">
+            Seleccione una lista para ver su contenido
+            </div>
+          </h6>
+          <div class="card-body" style="height: 18rem;">
+            <p class="card-text">
+              <div id="lista_content">
+              
+              </div>
+              
+              <div class="container">
+              <!-- Primera fila   -->              
+                <div class="row">
+                <div class="col-12 text-center">
+                  <h5>
+                    <div style="border-style: dashed; font-weight: bold;" id="j0"></div>
+                  </h5>
+
+                </div>
+              </div> 
+              <!-- segunda fila   -->              
+              <div class="row">
+                <div class="col-6">
+                  <h6>
+                    <div class="text-center" id="j1"></div>
+                  </h6>  
+                </div>
+                <div class="col-6">
+                    <h6>
+                      <div class="text-center" id="j2"></div>
+                    </h6>  
+                </div>
+              </div> 
+              <!-- tercera fila   -->              
+              <div class="row">
+                <div class="col-3">
+                    <h6>
+                      <div class="text-center" id="j3"></div>
+                    </h6>
+                </div>
+                <div class="col-3">
+                    <h6>
+                      <div class="text-center" id="j4"></div>
+                    </h6>
+                </div>
+                <div class="col-3">
+                    <h6>
+                      <div class="text-center" id="j5"></div>
+                    </h6>
+                </div>
+                <div class="col-3">
+                    <h6>
+                      <div class="text-center" id="j6"></div>
+                    </h6>
+                </div>
+              </div>
+            </div>
+          </p>
+        </div> 
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="card w-100">
+        <h6 class="card-header"> Mis Clones </h6>
+        <div class="card-body scroll-list" style="height: 18rem;">
+          <p class="card-text">
+            <div id="clonesContainer">
+          </div>
+          </p>
+        </div> 
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="card w-100">
+        <h6 class="card-header"> Reloj y Pagos </h6>
+        <div class="card-body scroll-list" style="height: 18rem;">
+          <p class="card-text">
+            <div id="reloj"></div><br>
+            <button type="button" class="btn btn-primary">Pagado</button>
+            <button type="button" class="btn btn-primary"> + Tiempo (2 Horas)</button>
+
+          </p>
+        </div> 
+      </div>
+    </div>
+
+  </div>
+</div>    
+{% endblock %}  

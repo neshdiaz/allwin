@@ -1,0 +1,5 @@
+mostrar los referidos hacia abajo
+
+cada cuatro cobros administracion
+sexto cobro sube de nivel
+los ciclajes no se estan actualizando automatico

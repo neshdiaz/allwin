@@ -1,0 +1,13 @@
+{% load static %}
+{% block contenido %}
+<a href="{% url 'core:home' 1 %}">Home</a>
+  <div> {{ respuesta }} </div>
+  <form action="{% url 'core:registro' %}" method="POST">
+    {% csrf_token %}
+    <input type="text" name="patrocinador" placeholder="Patrocinador"><br>
+    <input type="text" name ="usuario" placeholder="Usuario"><br>
+    <input type="text" placeholder="Contraseña"><br>
+    <input type="submit" value="Registro">
+  </form>
+{% endblock %}
+
