@@ -179,3 +179,22 @@
 2019-10-21 16:56:36.789032+00:00 Validando lista: 2
 2019-10-21 16:56:36.794032+00:00 Se ubicó la posicion 3 libre en la lista 2
 2019-10-21 16:56:36.797049+00:00 Jugador migue1 agregado a lista 2 en posicion: 3
+2019-10-25 00:25:41.350598+00:00 NUEVO JUGADOR Patrocinador None Jugador: System
+2019-10-25 00:25:41.352600+00:00 Busqueda por padre
+2019-10-25 00:25:41.353597+00:00 Busqueda por descendencia
+2019-10-25 00:25:41.355610+00:00 Busqueda lista más antigua
+2019-10-25 00:26:32.898889+00:00 NUEVO JUGADOR Patrocinador None Jugador: System
+2019-10-25 00:26:32.906890+00:00 Busqueda por padre
+2019-10-25 00:26:32.909891+00:00 Busqueda por descendencia
+2019-10-25 00:26:32.911890+00:00 Busqueda lista más antigua
+2019-10-25 00:26:32.928889+00:00 Jugador System agregado a lista 1 en posicion: 0
+2019-10-25 00:29:27.056788+00:00 NUEVO JUGADOR Patrocinador None Jugador: System
+2019-10-25 00:29:27.076788+00:00 Busqueda por padre
+2019-10-25 00:29:27.077789+00:00 Busqueda por descendencia
+2019-10-25 00:29:27.079790+00:00 Busqueda lista más antigua
+2019-10-25 00:29:27.087790+00:00 Jugador System agregado a lista 1 en posicion: 0
+2019-10-25 00:30:41.729513+00:00 NUEVO JUGADOR Patrocinador None Jugador: System
+2019-10-25 00:30:41.732514+00:00 Busqueda por padre
+2019-10-25 00:30:41.739517+00:00 Busqueda por descendencia
+2019-10-25 00:30:41.740516+00:00 Busqueda lista más antigua
+2019-10-25 00:30:41.747514+00:00 Jugador System agregado a lista 1 en posicion: 0
