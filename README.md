@@ -14,4 +14,4 @@ Para la instalación es necesaria la libreria de mysql que compila la librerias 
 
 default-libmysqlclient-dev
 
-La base de datos inicial debe contener la lista 1 Principal Usuario y Jugador base System nivel Base 1 50000
+La base de datos inicial debe contener la lista 1 Principal Usuario y Jugador base System y posiciones 1 y 2 con jugadores nivel Base 1 50000

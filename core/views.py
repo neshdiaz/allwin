@@ -445,12 +445,18 @@ def lista_cerrar_izq(lista):
     print('cerrando lista izquierda')
     lista.estado_izq = 'C'
     lista.save()
-
+    lista.refresh_from_db()
+    lista.lista_guardar_izq(lista)
+    
 
 def lista_cerrar_der(lista):
     print('cerrando lista derecha')
     lista.estado_der = 'C'
     lista.save()
+    lista.refresh_from_db()
+    lista_guardar_der(lista)
+    
+    
 
 def lista_llena(lista):
     resultado = False

@@ -198,3 +198,90 @@
 2019-10-25 00:30:41.739517+00:00 Busqueda por descendencia
 2019-10-25 00:30:41.740516+00:00 Busqueda lista más antigua
 2019-10-25 00:30:41.747514+00:00 Jugador System agregado a lista 1 en posicion: 0
+2019-10-26 03:12:27.402056+00:00 NUEVO JUGADOR Patrocinador System Jugador: eric
+2019-10-26 03:12:27.407055+00:00 Busqueda por padre
+2019-10-26 03:12:27.417055+00:00 Buscando posicion para el nuevo jugador
+2019-10-26 03:12:27.421055+00:00 Validando usuario padre: System
+2019-10-26 03:12:27.426055+00:00 Validando lista: 1
+2019-10-26 03:12:27.436054+00:00 Se ubicó la posicion 1 libre en la lista 1
+2019-10-26 03:12:27.442058+00:00 Jugador eric agregado a lista 1 en posicion: 1
+2019-10-26 03:13:17.260917+00:00 NUEVO JUGADOR Patrocinador eric Jugador: royer
+2019-10-26 03:13:17.261918+00:00 Busqueda por padre
+2019-10-26 03:13:17.270919+00:00 Buscando posicion para el nuevo jugador
+2019-10-26 03:13:17.271915+00:00 Validando usuario padre: eric
+2019-10-26 03:13:17.272914+00:00 Validando lista: 1
+2019-10-26 03:13:17.281917+00:00 Se ubicó la posicion 3 libre en la lista 1
+2019-10-26 03:13:17.286918+00:00 Jugador royer agregado a lista 1 en posicion: 3
+2019-10-26 03:14:28.856669+00:00 NUEVO JUGADOR Patrocinador eric Jugador: javi
+2019-10-26 03:14:28.860668+00:00 Busqueda por padre
+2019-10-26 03:14:28.870668+00:00 Buscando posicion para el nuevo jugador
+2019-10-26 03:14:28.872667+00:00 Validando usuario padre: eric
+2019-10-26 03:14:28.873667+00:00 Validando lista: 1
+2019-10-26 03:14:28.885670+00:00 Se ubicó la posicion 4 libre en la lista 1
+2019-10-26 03:14:28.889668+00:00 Jugador javi agregado a lista 1 en posicion: 4
+2019-10-26 03:14:28.974669+00:00 LISTA NUEVA IZQUIERDA
+2019-10-26 03:14:29.038669+00:00 Jugador eric agregado a lista 2 en posicion: 0
+2019-10-26 03:14:29.072670+00:00 Jugador royer agregado a lista 2 en posicion: 1
+2019-10-26 03:14:29.101669+00:00 Jugador javi agregado a lista 2 en posicion: 2
+2019-10-26 03:15:19.627369+00:00 NUEVO JUGADOR Patrocinador System Jugador: darson
+2019-10-26 03:15:19.629369+00:00 Busqueda por padre
+2019-10-26 03:15:19.636371+00:00 Buscando posicion para el nuevo jugador
+2019-10-26 03:15:19.638369+00:00 Validando usuario padre: System
+2019-10-26 03:15:19.639369+00:00 Validando lista: 1
+2019-10-26 03:15:19.648368+00:00 Se ubicó la posicion 2 libre en la lista 1
+2019-10-26 03:15:19.651368+00:00 Jugador darson agregado a lista 1 en posicion: 2
+2019-10-26 03:15:19.700369+00:00 jugador eric en posicion 1 se activa en verde 
+2019-10-26 03:22:56.683492+00:00 NUEVO JUGADOR Patrocinador royer Jugador: luz
+2019-10-26 03:22:56.687491+00:00 Busqueda por padre
+2019-10-26 03:22:56.694491+00:00 Buscando posicion para el nuevo jugador
+2019-10-26 03:22:56.696490+00:00 Validando usuario padre: royer
+2019-10-26 03:22:56.698490+00:00 Validando lista: 1
+2019-10-26 03:22:56.706492+00:00 No se encontró una posicion disponible en la                      lista 1
+2019-10-26 03:22:56.708493+00:00 Buscando posicion para el nuevo jugador
+2019-10-26 03:22:56.709492+00:00 Validando usuario padre: royer
+2019-10-26 03:22:56.710490+00:00 Validando lista: 2
+2019-10-26 03:22:56.722494+00:00 Se ubicó la posicion 3 libre en la lista 2
+2019-10-26 03:22:56.726493+00:00 Jugador luz agregado a lista 2 en posicion: 3
+2019-10-26 13:55:25.372189+00:00 NUEVO JUGADOR Patrocinador System Jugador: eric
+2019-10-26 13:55:25.374224+00:00 Busqueda por padre
+2019-10-26 13:55:25.383045+00:00 Buscando posicion para el nuevo jugador
+2019-10-26 13:55:25.384046+00:00 Validando usuario padre: System
+2019-10-26 13:55:25.386049+00:00 Validando lista: 1
+2019-10-26 13:55:25.395052+00:00 Se ubicó la posicion 1 libre en la lista 1
+2019-10-26 13:55:25.398051+00:00 Jugador eric agregado a lista 1 en posicion: 1
+2019-10-26 13:55:41.965446+00:00 NUEVO JUGADOR Patrocinador System Jugador: darson
+2019-10-26 13:55:41.966446+00:00 Busqueda por padre
+2019-10-26 13:55:41.977448+00:00 Buscando posicion para el nuevo jugador
+2019-10-26 13:55:41.978448+00:00 Validando usuario padre: System
+2019-10-26 13:55:41.981447+00:00 Validando lista: 1
+2019-10-26 13:55:41.990448+00:00 Se ubicó la posicion 2 libre en la lista 1
+2019-10-26 13:55:41.993446+00:00 Jugador darson agregado a lista 1 en posicion: 2
+2019-11-05 16:18:01.304738+00:00 NUEVO JUGADOR Patrocinador eric Jugador: royer
+2019-11-05 16:18:01.306740+00:00 Busqueda por padre
+2019-11-05 16:18:01.317740+00:00 Buscando posicion para el nuevo jugador
+2019-11-05 16:18:01.318739+00:00 Validando usuario padre: eric
+2019-11-05 16:18:01.320739+00:00 Validando lista: 1
+2019-11-05 16:18:01.333739+00:00 Se ubicó la posicion 3 libre en la lista 1
+2019-11-05 16:18:01.340737+00:00 Jugador royer agregado a lista 1 en posicion: 3
+2019-11-05 16:18:41.914311+00:00 NUEVO JUGADOR Patrocinador eric Jugador: luiscarlos
+2019-11-05 16:18:41.917313+00:00 Busqueda por padre
+2019-11-05 16:18:41.929310+00:00 Buscando posicion para el nuevo jugador
+2019-11-05 16:18:41.930311+00:00 Validando usuario padre: eric
+2019-11-05 16:18:41.932313+00:00 Validando lista: 1
+2019-11-05 16:18:41.945312+00:00 Se ubicó la posicion 4 libre en la lista 1
+2019-11-05 16:18:41.950311+00:00 Jugador luiscarlos agregado a lista 1 en posicion: 4
+2019-11-05 16:18:42.036312+00:00 LISTA NUEVA IZQUIERDA
+2019-11-05 16:18:42.085311+00:00 Jugador eric agregado a lista 3 en posicion: 0
+2019-11-05 16:18:42.094314+00:00 Jugador royer agregado a lista 3 en posicion: 1
+2019-11-05 16:18:42.102323+00:00 Jugador luiscarlos agregado a lista 3 en posicion: 2
+2019-11-05 16:19:41.643294+00:00 NUEVO JUGADOR Patrocinador royer Jugador: luz
+2019-11-05 16:19:41.645292+00:00 Busqueda por padre
+2019-11-05 16:19:41.653290+00:00 Buscando posicion para el nuevo jugador
+2019-11-05 16:19:41.655290+00:00 Validando usuario padre: royer
+2019-11-05 16:19:41.656291+00:00 Validando lista: 1
+2019-11-05 16:19:41.665291+00:00 No se encontró una posicion disponible en la                      lista 1
+2019-11-05 16:19:41.666290+00:00 Buscando posicion para el nuevo jugador
+2019-11-05 16:19:41.668290+00:00 Validando usuario padre: royer
+2019-11-05 16:19:41.669291+00:00 Validando lista: 3
+2019-11-05 16:19:41.680292+00:00 Se ubicó la posicion 3 libre en la lista 3
+2019-11-05 16:19:41.684292+00:00 Jugador luz agregado a lista 3 en posicion: 3

@@ -30,9 +30,9 @@ class Lista(models.Model):
     estado = models.CharField(max_length=1, choices=ESTADO_CHOICES,
                               default='A')
     estado_der = models.CharField(max_length=1, choices=ESTADO_CHOICES,
-                              default='A')
+                                  default='A')
     estado_izq = models.CharField(max_length=1, choices=ESTADO_CHOICES,
-                              default='A')
+                                  default='A')
     nivel = models.ForeignKey('Nivel', on_delete=models.CASCADE, default=1)
     pc = models.BooleanField(default=False)
     created = models.DateTimeField(auto_now_add=True)
