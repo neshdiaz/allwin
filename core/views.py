@@ -52,6 +52,7 @@ def asignar_jugador(nuevo_jugador):
                       jugador=nuevo_jugador,
                       posicion=nueva_ubicacion['posicion'])
         juego.save()
+        juego.refresh_from_db()
         log_registrar('log.txt', 'Jugador ' + str(nuevo_jugador) +
                       ' agregado a lista ' + str(nueva_ubicacion['lista']) +
                       ' en posicion: ' +
@@ -75,17 +76,17 @@ def asignar_jugador(nuevo_jugador):
 
         # bloque de ciclaje de jugadores
         elif nueva_ubicacion['posicion'] == 5:
-            ciclado = lista_ciclar(nueva_ubicacion['lista'])
-            while ciclado['posicion'] == 5:
-                ciclado = lista_ciclar(ciclado['lista'])
-            if ciclado['posicion'] == 4:
+            ret_ciclado = lista_ciclar(nueva_ubicacion['lista'])
+            while ret_ciclado['posicion'] == 5:
+                ret_ciclado = lista_ciclar(ret_ciclado['lista'])
+            if ret_ciclado['posicion'] == 4:
                 # aquí debo cerrar la lista izquierda
-                lista_cerrar_izq(ciclado['lista'])
-                lista_nueva_izq(ciclado['lista'])
-            elif ciclado['posicion'] == 6:
+                lista_cerrar_izq(ret_ciclado['lista'])
+                lista_nueva_izq(ret_ciclado['lista'])
+            elif ret_ciclado['posicion'] == 6:
                 # aquí debo cerrar la lista derecha
-                lista_cerrar_der(ciclado['lista'])
-                lista_nueva_der(ciclado['lista'])
+                lista_cerrar_der(ret_ciclado['lista'])
+                lista_nueva_der(ret_ciclado['lista'])
 
         # Creacion de lista derecha
         elif nueva_ubicacion['posicion'] == 6:
@@ -113,6 +114,7 @@ def asignar_clon(clon):
                       jugador=clon.jugador,
                       posicion=nueva_ubicacion['posicion'])
         juego.save()
+        juego.refresh_from_db()
         log_registrar('log.txt', 'Jugador ' + str(clon.jugador) +
                       ' agregado a lista ' + str(nueva_ubicacion['lista']) +
                       ' en posicion: ' +
@@ -128,17 +130,17 @@ def asignar_clon(clon):
             lista_nueva_izq(nueva_ubicacion['lista'])
 
         elif nueva_ubicacion['posicion'] == 5:
-            ciclado = lista_ciclar(nueva_ubicacion['lista'])
-            while ciclado['posicion'] == 5:
-                ciclado = lista_ciclar(ciclado['lista'])
-            if ciclado['posicion'] == 4:
+            ret_ciclado = lista_ciclar(nueva_ubicacion['lista'])
+            while ret_ciclado['posicion'] == 5:
+                ret_ciclado = lista_ciclar(ret_ciclado['lista'])
+            if ret_ciclado['posicion'] == 4:
                 # aquí debo cerrar la lista izquierda
-                lista_cerrar_izq(ciclado['lista'])
-                lista_nueva_izq(ciclado['lista'])
-            elif ciclado['posicion'] == 6:
+                lista_cerrar_izq(ret_ciclado['lista'])
+                lista_nueva_izq(ret_ciclado['lista'])
+            elif ret_ciclado['posicion'] == 6:
                 # aquí debo cerrar la lista derecha
-                lista_cerrar_der(ciclado['lista'])
-                lista_nueva_der(ciclado['lista'])
+                lista_cerrar_der(ret_ciclado['lista'])
+                lista_nueva_der(ret_ciclado['lista'])
 
         elif nueva_ubicacion['posicion'] == 6:
             # aquí debo cerrar la lista derecha
@@ -347,6 +349,7 @@ def lista_ciclar(lista):
                             posicion=nueva_ubicacion['posicion'])
 
         nuevo_juego.save()
+        nuevo_juego.refresh_from_db()
         notificar_asignacion()
         log_registrar('log.txt', 'Jugador ciclado ' + str(jugador0) +
                       ' agregado a lista ' + str(nueva_ubicacion['lista']) +
@@ -367,6 +370,7 @@ def lista_nueva_izq(lista):
                         estado='B',
                         nivel=lista.nivel)
     nueva_lista.save()
+    nueva_lista.refresh_from_db()
     # Traer las tres primeras posiciones
     jugador0 = Jugador.objects.filter(juego__lista=lista,
                                       juego__posicion=1)
@@ -385,8 +389,11 @@ def lista_nueva_izq(lista):
                          jugador=jugador2[0],
                          posicion=2)
     nuevo_juego0.save()
+    nuevo_juego0.refresh_from_db()
     nuevo_juego1.save()
+    nuevo_juego1.refresh_from_db()
     nuevo_juego2.save()
+    nuevo_juego1.refresh_from_db()
 
     log_registrar('log.txt', 'Jugador ' + str(jugador0[0]) +
                   ' agregado a lista ' + str(nueva_lista) + ' en posicion: 0')
@@ -408,6 +415,7 @@ def lista_nueva_der(lista):
                         estado='B',
                         nivel=lista.nivel)
     nueva_lista.save()
+    nueva_lista.refresh_from_db()
 
     # Traer las tres primeras posiciones
     jugador0 = Jugador.objects.filter(juego__lista=lista,
@@ -427,8 +435,11 @@ def lista_nueva_der(lista):
                          jugador=jugador2[0],
                          posicion=2)
     nuevo_juego0.save()
+    nuevo_juego0.refresh_from_db()
     nuevo_juego1.save()
+    nuevo_juego1.refresh_from_db()
     nuevo_juego2.save()
+    nuevo_juego2.refresh_from_db()
 
     log_registrar('log.txt', 'Jugador ' + str(jugador0[0]) +
                   ' agregado a lista ' + str(nueva_lista) + ' en posicion: 0')
@@ -446,8 +457,7 @@ def lista_cerrar_izq(lista):
     lista.estado_izq = 'C'
     lista.save()
     lista.refresh_from_db()
-    lista.lista_guardar_izq(lista)
-    
+    lista_guardar_izq(lista)
 
 def lista_cerrar_der(lista):
     print('cerrando lista derecha')
@@ -455,8 +465,6 @@ def lista_cerrar_der(lista):
     lista.save()
     lista.refresh_from_db()
     lista_guardar_der(lista)
-    
-    
 
 def lista_llena(lista):
     resultado = False
@@ -484,6 +492,7 @@ def lista_guardar_cierre(lista):
         juego.posicion_cerrado = juego.posicion
         juego.color_cerrado = juego.jugador.color
         juego.save()
+        juego.refresh_from_db()
 
 def lista_guardar_izq(lista):
     juegos_lista = Juego.objects.select_related('jugador').filter(lista=lista)
@@ -492,6 +501,7 @@ def lista_guardar_izq(lista):
             juego.posicion_cerrado = juego.posicion
             juego.color_cerrado = juego.jugador.color
             juego.save()
+            juego.refresh_from_db()
 
 
 def lista_guardar_der(lista):
@@ -501,11 +511,13 @@ def lista_guardar_der(lista):
             juego.posicion_cerrado = juego.posicion
             juego.color_cerrado = juego.jugador.color
             juego.save()
+            juego.refresh_from_db()
 
 
 def lista_inc_ciclo(lista):
     lista.ciclo = F('ciclo') + 1
     lista.save()
+    lista.refresh_from_db()
 
 
 def jugador_inc_referidos(patrocinador):
@@ -520,6 +532,7 @@ def jugador_inc_referidos(patrocinador):
         elif patrocinador.n_referidos >= 2:
             patrocinador.color = 'green'
         patrocinador.save()
+        patrocinador.refresh_from_db()
 
 
 def jugador_inc_activos_abuelo(patrocinador, nivel_lista):
@@ -535,6 +548,7 @@ def jugador_inc_activos_abuelo(patrocinador, nivel_lista):
                                   estado='P',
                                   nivel=nivel_lista)
                 nuevo_clon.save()
+                nuevo_clon.refresh_from_db()
     except AttributeError:
         print('Sin patrocinador, Posible creacion de usuario System')
 
@@ -546,6 +560,7 @@ def lista_desbloquear(lista):
     else:
         lista.estado = 'A'
     lista.save()
+    lista.refresh_from_db()
 
 
 # Validamos la lista para desbloquearla
@@ -600,10 +615,13 @@ def jugador_validar_pcs(patrocinador):
                     obj_desc = Juego.objects.get(pk=juegos[0].id)
                     obj_asc.posicion = 0
                     obj_asc.save()
+                    obj_asc.refresh_from_db()
                     obj_desc.posicion = 1
                     obj_desc.save()
+                    obj_desc.refresh_from_db()
                     lista.pc = True
                     lista.save()
+                    lista.refresh_from_db()
                 elif juegos[2].jugador.color == 'green' and \
                         juegos[0].jugador.color != 'green':
                     log_registrar('log.txt', 'jugador ' +
@@ -613,10 +631,13 @@ def jugador_validar_pcs(patrocinador):
                     obj_desc = Juego.objects.get(pk=juegos[0].id)
                     obj_asc.posicion = 0
                     obj_asc.save()
+                    obj_asc.refresh_from_db()
                     obj_desc.posicion = 2
                     obj_desc.save()
+                    obj_desc.refresh_from_db()
                     lista.pc = True
                     lista.save()
+                    lista.refresh_from_db()
 
 #  Validamos lista para generar el premio castigo
 def lista_validar_pc(lista):
@@ -634,10 +655,13 @@ def lista_validar_pc(lista):
             obj_desc = Juego.objects.get(pk=juegos[0].id)
             obj_asc.posicion = 0
             obj_asc.save()
+            obj_asc.refresh_from_db()
             obj_desc.posicion = 1
             obj_desc.save()
+            obj_desc.refresh_from_db()
             lista.pc = True
             lista.save()
+            lista.refresh_from_db()
         elif juegos[2].jugador.color == 'green' and juegos[0].jugador.color\
                 != 'green':
             log_registrar('log.txt', 'jugador ' +
@@ -647,10 +671,13 @@ def lista_validar_pc(lista):
             obj_desc = Juego.objects.get(pk=juegos[0].id)
             obj_asc.posicion = 0
             obj_asc.save()
+            obj_asc.refresh_from_db()
             obj_desc.posicion = 2
             obj_desc.save()
+            obj_desc.refresh_from_db()
             lista.pc = True
             lista.save()
+            lista.refresh_from_db()
 
 
 # Fin del bloque de funciones validaciones pc y bloqueo
@@ -658,11 +685,13 @@ def lista_validar_pc(lista):
 def jugador_inc_ciclo(jugador):
     jugador.ciclo = F('ciclo') + 1
     jugador.save()
+    jugador.refresh_from_db()
 
 
 def jugador_inc_cierre_lista(jugador):
     jugador.cierre_lista = F('cierre_lista') + 1
     jugador.save()
+    jugador.refresh_from_db()
 
 
 def log_registrar(nombre_archivo, texto):
@@ -823,5 +852,6 @@ def activar_clon(request, clon_id=None):
         if clon.estado == 'P':
             clon.estado = 'A'
             clon.save()
+            clon.refresh_from_db()
             asignar_clon(clon)
     return redirect(reverse('core:home'))

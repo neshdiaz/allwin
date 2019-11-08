@@ -14,7 +14,7 @@
             {% else %}
               <h6>Este Usuario no existe por favor verifique su enlace de referido, o continuará el registro sin patrocinador"</a></h6>
             {% endif %}
-            <h6>{{mensaje}}</h6>
+            
             <form action="{% url 'registration:registro' %}" method="POST"> {% csrf_token %}
               <input type="hidden" name='patrocinador' value="{{patrocinador}}">
               {% if referido_valid %}

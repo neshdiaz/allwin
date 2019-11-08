@@ -285,3 +285,439 @@
 2019-11-05 16:19:41.669291+00:00 Validando lista: 3
 2019-11-05 16:19:41.680292+00:00 Se ubicó la posicion 3 libre en la lista 3
 2019-11-05 16:19:41.684292+00:00 Jugador luz agregado a lista 3 en posicion: 3
+2019-11-07 19:31:29.465861+00:00 NUEVO JUGADOR Patrocinador System Jugador: eric
+2019-11-07 19:31:29.466880+00:00 Busqueda por padre
+2019-11-07 19:31:29.474856+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 19:31:29.475854+00:00 Validando usuario padre: System
+2019-11-07 19:31:29.476853+00:00 Validando lista: 1
+2019-11-07 19:31:29.485821+00:00 Se ubicó la posicion 1 libre en la lista 1
+2019-11-07 19:31:29.491207+00:00 Jugador eric agregado a lista 1 en posicion: 1
+2019-11-07 19:31:47.585335+00:00 NUEVO JUGADOR Patrocinador System Jugador: Darson
+2019-11-07 19:31:47.586317+00:00 Busqueda por padre
+2019-11-07 19:31:47.593327+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 19:31:47.594314+00:00 Validando usuario padre: System
+2019-11-07 19:31:47.595311+00:00 Validando lista: 1
+2019-11-07 19:31:47.604305+00:00 Se ubicó la posicion 2 libre en la lista 1
+2019-11-07 19:31:47.607319+00:00 Jugador Darson agregado a lista 1 en posicion: 2
+2019-11-07 19:38:39.742809+00:00 NUEVO JUGADOR Patrocinador eric Jugador: royer
+2019-11-07 19:38:39.743787+00:00 Busqueda por padre
+2019-11-07 19:38:39.750797+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 19:38:39.751781+00:00 Validando usuario padre: eric
+2019-11-07 19:38:39.752801+00:00 Validando lista: 1
+2019-11-07 19:38:39.763794+00:00 Se ubicó la posicion 3 libre en la lista 1
+2019-11-07 19:38:39.766775+00:00 Jugador royer agregado a lista 1 en posicion: 3
+2019-11-07 20:08:32.716860+00:00 NUEVO JUGADOR Patrocinador eric Jugador: luiscarlos
+2019-11-07 20:08:32.718857+00:00 Busqueda por padre
+2019-11-07 20:08:32.728854+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 20:08:32.729851+00:00 Validando usuario padre: eric
+2019-11-07 20:08:32.730853+00:00 Validando lista: 1
+2019-11-07 20:08:32.741847+00:00 Se ubicó la posicion 4 libre en la lista 1
+2019-11-07 20:08:32.744843+00:00 Jugador luiscarlos agregado a lista 1 en posicion: 4
+2019-11-07 20:09:44.168339+00:00 NUEVO JUGADOR Patrocinador eric Jugador: luiscarlos
+2019-11-07 20:09:44.170342+00:00 Busqueda por padre
+2019-11-07 20:09:44.178331+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 20:09:44.178862+00:00 Validando usuario padre: eric
+2019-11-07 20:09:44.179874+00:00 Validando lista: 1
+2019-11-07 20:09:44.188863+00:00 Se ubicó la posicion 4 libre en la lista 1
+2019-11-07 20:09:44.191860+00:00 Jugador luiscarlos agregado a lista 1 en posicion: 4
+2019-11-07 20:10:45.182788+00:00 NUEVO JUGADOR Patrocinador eric Jugador: luiscarlos
+2019-11-07 20:10:45.183770+00:00 Busqueda por padre
+2019-11-07 20:10:45.192761+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 20:10:45.193777+00:00 Validando usuario padre: eric
+2019-11-07 20:10:45.193777+00:00 Validando lista: 1
+2019-11-07 20:10:45.203755+00:00 Se ubicó la posicion 4 libre en la lista 1
+2019-11-07 20:10:45.206763+00:00 Jugador luiscarlos agregado a lista 1 en posicion: 4
+2019-11-07 20:10:45.393647+00:00 LISTA NUEVA IZQUIERDA
+2019-11-07 20:10:45.428626+00:00 Jugador eric agregado a lista 3 en posicion: 0
+2019-11-07 20:10:45.436621+00:00 Jugador royer agregado a lista 3 en posicion: 1
+2019-11-07 20:10:45.445616+00:00 Jugador luiscarlos agregado a lista 3 en posicion: 2
+2019-11-07 20:13:17.945161+00:00 NUEVO JUGADOR Patrocinador royer Jugador: luz
+2019-11-07 20:13:17.946142+00:00 Busqueda por padre
+2019-11-07 20:13:17.955137+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 20:13:17.956135+00:00 Validando usuario padre: royer
+2019-11-07 20:13:17.957133+00:00 Validando lista: 1
+2019-11-07 20:13:17.967145+00:00 No se encontró una posicion disponible en la                      lista 1
+2019-11-07 20:13:17.967145+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 20:13:17.968130+00:00 Validando usuario padre: royer
+2019-11-07 20:13:17.969131+00:00 Validando lista: 3
+2019-11-07 20:13:17.980137+00:00 Se ubicó la posicion 3 libre en la lista 3
+2019-11-07 20:13:17.983121+00:00 Jugador luz agregado a lista 3 en posicion: 3
+2019-11-07 20:14:32.980773+00:00 NUEVO JUGADOR Patrocinador royer Jugador: ilba
+2019-11-07 20:14:32.985771+00:00 Busqueda por padre
+2019-11-07 20:14:32.994765+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 20:14:32.994765+00:00 Validando usuario padre: royer
+2019-11-07 20:14:32.995765+00:00 Validando lista: 1
+2019-11-07 20:14:33.004760+00:00 No se encontró una posicion disponible en la                      lista 1
+2019-11-07 20:14:33.005762+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 20:14:33.006759+00:00 Validando usuario padre: royer
+2019-11-07 20:14:33.007775+00:00 Validando lista: 3
+2019-11-07 20:14:33.016770+00:00 Se ubicó la posicion 4 libre en la lista 3
+2019-11-07 20:14:33.020750+00:00 Jugador ilba agregado a lista 3 en posicion: 4
+2019-11-07 20:14:33.115697+00:00 LISTA NUEVA IZQUIERDA
+2019-11-07 20:14:33.146678+00:00 Jugador royer agregado a lista 4 en posicion: 0
+2019-11-07 20:14:33.154689+00:00 Jugador luz agregado a lista 4 en posicion: 1
+2019-11-07 20:14:33.162669+00:00 Jugador ilba agregado a lista 4 en posicion: 2
+2019-11-07 20:19:01.585057+00:00 NUEVO JUGADOR Patrocinador Darson Jugador: migue
+2019-11-07 20:19:01.587042+00:00 Busqueda por padre
+2019-11-07 20:19:01.596036+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 20:19:01.597038+00:00 Validando usuario padre: Darson
+2019-11-07 20:19:01.598035+00:00 Validando lista: 1
+2019-11-07 20:19:01.606423+00:00 Se ubicó la posicion 5 libre en la lista 1
+2019-11-07 20:19:01.609408+00:00 Jugador migue agregado a lista 1 en posicion: 5
+2019-11-07 20:19:01.676671+00:00 CICLAJE
+2019-11-07 20:19:01.686676+00:00 Jugador a ciclar System
+2019-11-07 20:19:01.687660+00:00  id patrocinador del patrocinador None
+2019-11-07 20:19:01.688660+00:00 Busqueda por padre
+2019-11-07 20:19:01.688660+00:00 Busqueda por descendencia
+2019-11-07 20:19:01.689662+00:00 Busqueda lista más antigua
+2019-11-07 20:19:01.699658+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 20:19:01.704672+00:00 Validando usuario padre: System
+2019-11-07 20:19:01.705653+00:00 Validando lista: 1
+2019-11-07 20:19:01.715665+00:00 Se ubicó la posicion 6 libre en la lista 1
+2019-11-07 20:19:01.723641+00:00 Jugador ciclado System agregado a lista 1 en posicion: 6
+2019-11-07 20:19:01.799598+00:00 LISTA NUEVA CICLAJE
+2019-11-07 20:19:01.831578+00:00 Jugador Darson agregado a lista 5 en posicion: 0
+2019-11-07 20:19:01.839576+00:00 Jugador migue agregado a lista 5 en posicion: 1
+2019-11-07 20:19:01.847569+00:00 Jugador System agregado a lista 5 en posicion: 2
+2019-11-07 20:19:01.926542+00:00 jugador System en posicion 2 se activa en verde
+2019-11-07 20:22:32.806698+00:00 NUEVO JUGADOR Patrocinador Darson Jugador: Angelo
+2019-11-07 20:22:32.808680+00:00 Busqueda por padre
+2019-11-07 20:22:32.816689+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 20:22:32.817671+00:00 Validando usuario padre: Darson
+2019-11-07 20:22:32.817671+00:00 Validando lista: 5
+2019-11-07 20:22:32.828665+00:00 Se ubicó la posicion 5 libre en la lista 5
+2019-11-07 20:22:32.830664+00:00 Jugador Angelo agregado a lista 5 en posicion: 5
+2019-11-07 20:22:32.893631+00:00 CICLAJE
+2019-11-07 20:22:32.904623+00:00 Jugador a ciclar System
+2019-11-07 20:22:32.905642+00:00  id patrocinador del patrocinador None
+2019-11-07 20:22:32.905642+00:00 Busqueda por padre
+2019-11-07 20:22:32.906622+00:00 Busqueda por descendencia
+2019-11-07 20:22:32.907620+00:00 Busqueda lista más antigua
+2019-11-07 20:22:32.917614+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 20:22:32.922613+00:00 Validando usuario padre: eric
+2019-11-07 20:22:32.923612+00:00 Validando lista: 3
+2019-11-07 20:22:32.933624+00:00 Se ubicó la posicion 5 libre en la lista 3
+2019-11-07 20:22:32.942604+00:00 Jugador ciclado System agregado a lista 3 en posicion: 5
+2019-11-07 20:22:32.953613+00:00 CICLAJE
+2019-11-07 20:22:32.963590+00:00 Jugador a ciclar eric
+2019-11-07 20:22:32.972584+00:00  id patrocinador del patrocinador System
+2019-11-07 20:22:32.972584+00:00 Busqueda por padre
+2019-11-07 20:22:32.981577+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 20:22:32.982576+00:00 Validando usuario padre: System
+2019-11-07 20:22:32.983593+00:00 Validando lista: 5
+2019-11-07 20:22:32.993573+00:00 Se ubicó la posicion 3 libre en la lista 5
+2019-11-07 20:22:33.002565+00:00 Jugador ciclado eric agregado a lista 5 en posicion: 3
+2019-11-07 20:43:46.274183+00:00 NUEVO JUGADOR Patrocinador System Jugador: Eric
+2019-11-07 20:43:46.275204+00:00 Busqueda por padre
+2019-11-07 20:43:46.283179+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 20:43:46.284177+00:00 Validando usuario padre: System
+2019-11-07 20:43:46.285314+00:00 Validando lista: 1
+2019-11-07 20:43:46.294312+00:00 Se ubicó la posicion 1 libre en la lista 1
+2019-11-07 20:43:46.300309+00:00 Jugador Eric agregado a lista 1 en posicion: 1
+2019-11-07 20:44:09.095674+00:00 NUEVO JUGADOR Patrocinador System Jugador: Darson
+2019-11-07 20:44:09.096676+00:00 Busqueda por padre
+2019-11-07 20:44:09.104671+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 20:44:09.105670+00:00 Validando usuario padre: System
+2019-11-07 20:44:09.106670+00:00 Validando lista: 1
+2019-11-07 20:44:09.116664+00:00 Se ubicó la posicion 2 libre en la lista 1
+2019-11-07 20:44:09.123659+00:00 Jugador Darson agregado a lista 1 en posicion: 2
+2019-11-07 20:44:39.643124+00:00 NUEVO JUGADOR Patrocinador Eric Jugador: Royer
+2019-11-07 20:44:39.644144+00:00 Busqueda por padre
+2019-11-07 20:44:39.652117+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 20:44:39.652117+00:00 Validando usuario padre: Eric
+2019-11-07 20:44:39.653138+00:00 Validando lista: 1
+2019-11-07 20:44:39.663111+00:00 Se ubicó la posicion 3 libre en la lista 1
+2019-11-07 20:44:39.669129+00:00 Jugador Royer agregado a lista 1 en posicion: 3
+2019-11-07 20:45:16.466229+00:00 NUEVO JUGADOR Patrocinador Eric Jugador: luiscarlos
+2019-11-07 20:45:16.468209+00:00 Busqueda por padre
+2019-11-07 20:45:16.476204+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 20:45:16.477202+00:00 Validando usuario padre: Eric
+2019-11-07 20:45:16.478218+00:00 Validando lista: 1
+2019-11-07 20:45:16.487213+00:00 Se ubicó la posicion 4 libre en la lista 1
+2019-11-07 20:45:16.494212+00:00 Jugador luiscarlos agregado a lista 1 en posicion: 4
+2019-11-07 20:45:16.571169+00:00 LISTA NUEVA IZQUIERDA
+2019-11-07 20:45:16.601152+00:00 Jugador Eric agregado a lista 6 en posicion: 0
+2019-11-07 20:45:16.609150+00:00 Jugador Royer agregado a lista 6 en posicion: 1
+2019-11-07 20:45:16.616123+00:00 Jugador luiscarlos agregado a lista 6 en posicion: 2
+2019-11-07 20:46:23.465270+00:00 NUEVO JUGADOR Patrocinador Royer Jugador: luz
+2019-11-07 20:46:23.467249+00:00 Busqueda por padre
+2019-11-07 20:46:23.476260+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 20:46:23.477244+00:00 Validando usuario padre: Royer
+2019-11-07 20:46:23.477244+00:00 Validando lista: 1
+2019-11-07 20:46:23.486238+00:00 No se encontró una posicion disponible en la                      lista 1
+2019-11-07 20:46:23.487246+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 20:46:23.488240+00:00 Validando usuario padre: Royer
+2019-11-07 20:46:23.489253+00:00 Validando lista: 6
+2019-11-07 20:46:23.499251+00:00 Se ubicó la posicion 3 libre en la lista 6
+2019-11-07 20:46:23.505251+00:00 Jugador luz agregado a lista 6 en posicion: 3
+2019-11-07 20:47:39.906929+00:00 NUEVO JUGADOR Patrocinador Royer Jugador: ilba
+2019-11-07 20:47:39.907905+00:00 Busqueda por padre
+2019-11-07 20:47:39.914900+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 20:47:39.915900+00:00 Validando usuario padre: Royer
+2019-11-07 20:47:39.916902+00:00 Validando lista: 1
+2019-11-07 20:47:39.925916+00:00 No se encontró una posicion disponible en la                      lista 1
+2019-11-07 20:47:39.926893+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 20:47:39.927895+00:00 Validando usuario padre: Royer
+2019-11-07 20:47:39.928895+00:00 Validando lista: 6
+2019-11-07 20:47:39.938889+00:00 Se ubicó la posicion 4 libre en la lista 6
+2019-11-07 20:47:39.945899+00:00 Jugador ilba agregado a lista 6 en posicion: 4
+2019-11-07 20:47:40.027836+00:00 LISTA NUEVA IZQUIERDA
+2019-11-07 20:47:40.059818+00:00 Jugador Royer agregado a lista 7 en posicion: 0
+2019-11-07 20:47:40.066833+00:00 Jugador luz agregado a lista 7 en posicion: 1
+2019-11-07 20:47:40.074810+00:00 Jugador ilba agregado a lista 7 en posicion: 2
+2019-11-07 20:48:27.491972+00:00 NUEVO JUGADOR Patrocinador Darson Jugador: migue
+2019-11-07 20:48:27.494954+00:00 Busqueda por padre
+2019-11-07 20:48:27.501946+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 20:48:27.502966+00:00 Validando usuario padre: Darson
+2019-11-07 20:48:27.503957+00:00 Validando lista: 1
+2019-11-07 20:48:27.513765+00:00 Se ubicó la posicion 5 libre en la lista 1
+2019-11-07 20:48:27.520754+00:00 Jugador migue agregado a lista 1 en posicion: 5
+2019-11-07 20:48:27.599701+00:00 CICLAJE
+2019-11-07 20:48:27.610718+00:00 Jugador a ciclar System
+2019-11-07 20:48:27.611695+00:00  id patrocinador del patrocinador None
+2019-11-07 20:48:27.611695+00:00 Busqueda por padre
+2019-11-07 20:48:27.612692+00:00 Busqueda por descendencia
+2019-11-07 20:48:27.613700+00:00 Busqueda lista más antigua
+2019-11-07 20:48:27.622706+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 20:48:27.628709+00:00 Validando usuario padre: System
+2019-11-07 20:48:27.628709+00:00 Validando lista: 1
+2019-11-07 20:48:27.638694+00:00 Se ubicó la posicion 6 libre en la lista 1
+2019-11-07 20:48:27.650671+00:00 Jugador ciclado System agregado a lista 1 en posicion: 6
+2019-11-07 20:48:27.755631+00:00 LISTA NUEVA CICLAJE
+2019-11-07 20:48:27.788593+00:00 Jugador Darson agregado a lista 8 en posicion: 0
+2019-11-07 20:48:27.799585+00:00 Jugador migue agregado a lista 8 en posicion: 1
+2019-11-07 20:48:27.806596+00:00 Jugador System agregado a lista 8 en posicion: 2
+2019-11-07 20:48:27.886537+00:00 jugador System en posicion 2 se activa en verde
+2019-11-07 20:50:19.724764+00:00 NUEVO JUGADOR Patrocinador Darson Jugador: angelo
+2019-11-07 20:50:19.725765+00:00 Busqueda por padre
+2019-11-07 20:50:19.733759+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 20:50:19.734775+00:00 Validando usuario padre: Darson
+2019-11-07 20:50:19.735760+00:00 Validando lista: 8
+2019-11-07 20:50:19.744773+00:00 Se ubicó la posicion 5 libre en la lista 8
+2019-11-07 20:50:19.750750+00:00 Jugador angelo agregado a lista 8 en posicion: 5
+2019-11-07 20:50:19.796729+00:00 CICLAJE
+2019-11-07 20:50:19.807717+00:00 Jugador a ciclar System
+2019-11-07 20:50:19.808719+00:00  id patrocinador del patrocinador None
+2019-11-07 20:50:19.809719+00:00 Busqueda por padre
+2019-11-07 20:50:19.809719+00:00 Busqueda por descendencia
+2019-11-07 20:50:19.810731+00:00 Busqueda lista más antigua
+2019-11-07 20:50:19.819711+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 20:50:19.825707+00:00 Validando usuario padre: Eric
+2019-11-07 20:50:19.826728+00:00 Validando lista: 6
+2019-11-07 20:50:19.835717+00:00 Se ubicó la posicion 5 libre en la lista 6
+2019-11-07 20:50:19.848716+00:00 Jugador ciclado System agregado a lista 6 en posicion: 5
+2019-11-07 20:50:19.861704+00:00 CICLAJE
+2019-11-07 20:50:19.874680+00:00 Jugador a ciclar Eric
+2019-11-07 20:50:19.886693+00:00  id patrocinador del patrocinador System
+2019-11-07 20:50:19.887694+00:00 Busqueda por padre
+2019-11-07 20:50:19.895683+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 20:50:19.896687+00:00 Validando usuario padre: System
+2019-11-07 20:50:19.897668+00:00 Validando lista: 8
+2019-11-07 20:50:19.907660+00:00 Se ubicó la posicion 3 libre en la lista 8
+2019-11-07 20:50:19.919653+00:00 Jugador ciclado Eric agregado a lista 8 en posicion: 3
+2019-11-07 21:19:50.246706+00:00 NUEVO JUGADOR Patrocinador System Jugador: Eric
+2019-11-07 21:19:50.247684+00:00 Busqueda por padre
+2019-11-07 21:19:50.252701+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 21:19:50.253700+00:00 Validando usuario padre: System
+2019-11-07 21:19:50.253700+00:00 Validando lista: 1
+2019-11-07 21:19:50.258695+00:00 Se ubicó la posicion 1 libre en la lista 1
+2019-11-07 21:19:50.262678+00:00 Jugador Eric agregado a lista 1 en posicion: 1
+2019-11-07 21:20:09.385995+00:00 NUEVO JUGADOR Patrocinador System Jugador: Darson
+2019-11-07 21:20:09.386969+00:00 Busqueda por padre
+2019-11-07 21:20:09.390984+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 21:20:09.391968+00:00 Validando usuario padre: System
+2019-11-07 21:20:09.392983+00:00 Validando lista: 1
+2019-11-07 21:20:09.396964+00:00 Se ubicó la posicion 2 libre en la lista 1
+2019-11-07 21:20:09.400964+00:00 Jugador Darson agregado a lista 1 en posicion: 2
+2019-11-07 21:20:41.807732+00:00 NUEVO JUGADOR Patrocinador Eric Jugador: royer
+2019-11-07 21:20:41.808713+00:00 Busqueda por padre
+2019-11-07 21:20:41.813726+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 21:20:41.814714+00:00 Validando usuario padre: Eric
+2019-11-07 21:20:41.814714+00:00 Validando lista: 1
+2019-11-07 21:20:41.821708+00:00 Se ubicó la posicion 3 libre en la lista 1
+2019-11-07 21:20:41.826701+00:00 Jugador royer agregado a lista 1 en posicion: 3
+2019-11-07 21:20:59.506782+00:00 NUEVO JUGADOR Patrocinador Eric Jugador: luiscarlos
+2019-11-07 21:20:59.507760+00:00 Busqueda por padre
+2019-11-07 21:20:59.512773+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 21:20:59.513773+00:00 Validando usuario padre: Eric
+2019-11-07 21:20:59.513773+00:00 Validando lista: 1
+2019-11-07 21:20:59.518774+00:00 Se ubicó la posicion 4 libre en la lista 1
+2019-11-07 21:20:59.522751+00:00 Jugador luiscarlos agregado a lista 1 en posicion: 4
+2019-11-07 21:20:59.564728+00:00 LISTA NUEVA IZQUIERDA
+2019-11-07 21:20:59.585731+00:00 Jugador Eric agregado a lista 9 en posicion: 0
+2019-11-07 21:20:59.589717+00:00 Jugador royer agregado a lista 9 en posicion: 1
+2019-11-07 21:20:59.593711+00:00 Jugador luiscarlos agregado a lista 9 en posicion: 2
+2019-11-07 21:21:31.826716+00:00 NUEVO JUGADOR Patrocinador royer Jugador: luz
+2019-11-07 21:21:31.826716+00:00 Busqueda por padre
+2019-11-07 21:21:31.832710+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 21:21:31.832710+00:00 Validando usuario padre: royer
+2019-11-07 21:21:31.833834+00:00 Validando lista: 1
+2019-11-07 21:21:31.838562+00:00 No se encontró una posicion disponible en la                      lista 1
+2019-11-07 21:21:31.839575+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 21:21:31.840558+00:00 Validando usuario padre: royer
+2019-11-07 21:21:31.841574+00:00 Validando lista: 9
+2019-11-07 21:21:31.846557+00:00 Se ubicó la posicion 3 libre en la lista 9
+2019-11-07 21:21:31.850552+00:00 Jugador luz agregado a lista 9 en posicion: 3
+2019-11-07 21:22:35.176279+00:00 NUEVO JUGADOR Patrocinador Darson Jugador: migue
+2019-11-07 21:22:35.177260+00:00 Busqueda por padre
+2019-11-07 21:22:35.181257+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 21:22:35.182256+00:00 Validando usuario padre: Darson
+2019-11-07 21:22:35.183257+00:00 Validando lista: 1
+2019-11-07 21:22:35.188252+00:00 Se ubicó la posicion 5 libre en la lista 1
+2019-11-07 21:22:35.192249+00:00 Jugador migue agregado a lista 1 en posicion: 5
+2019-11-07 21:22:35.213237+00:00 CICLAJE
+2019-11-07 21:22:35.219256+00:00 Jugador a ciclar System
+2019-11-07 21:22:35.220252+00:00  id patrocinador del patrocinador None
+2019-11-07 21:22:35.221249+00:00 Busqueda por padre
+2019-11-07 21:22:35.222231+00:00 Busqueda por descendencia
+2019-11-07 21:22:35.222231+00:00 Busqueda lista más antigua
+2019-11-07 21:22:35.227248+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 21:22:35.229228+00:00 Validando usuario padre: System
+2019-11-07 21:22:35.230243+00:00 Validando lista: 1
+2019-11-07 21:22:35.235227+00:00 Se ubicó la posicion 6 libre en la lista 1
+2019-11-07 21:22:35.242239+00:00 Jugador ciclado System agregado a lista 1 en posicion: 6
+2019-11-07 21:23:47.268582+00:00 NUEVO JUGADOR Patrocinador Darson Jugador: migue
+2019-11-07 21:23:47.269580+00:00 Busqueda por padre
+2019-11-07 21:23:47.278575+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 21:23:47.279595+00:00 Validando usuario padre: Darson
+2019-11-07 21:23:47.280574+00:00 Validando lista: 1
+2019-11-07 21:23:47.290589+00:00 Se ubicó la posicion 5 libre en la lista 1
+2019-11-07 21:23:47.296581+00:00 Jugador migue agregado a lista 1 en posicion: 5
+2019-11-07 21:23:47.451476+00:00 CICLAJE
+2019-11-07 21:23:47.462468+00:00 Jugador a ciclar System
+2019-11-07 21:23:47.463468+00:00  id patrocinador del patrocinador None
+2019-11-07 21:23:47.464474+00:00 Busqueda por padre
+2019-11-07 21:23:47.465485+00:00 Busqueda por descendencia
+2019-11-07 21:23:47.465485+00:00 Busqueda lista más antigua
+2019-11-07 21:23:47.475462+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 21:23:47.480475+00:00 Validando usuario padre: System
+2019-11-07 21:23:47.481458+00:00 Validando lista: 1
+2019-11-07 21:23:47.491469+00:00 Se ubicó la posicion 6 libre en la lista 1
+2019-11-07 21:23:47.499468+00:00 Jugador ciclado System agregado a lista 1 en posicion: 6
+2019-11-07 21:23:47.608390+00:00 LISTA NUEVA CICLAJE
+2019-11-07 21:23:47.658356+00:00 Jugador Darson agregado a lista 10 en posicion: 0
+2019-11-07 21:23:47.666352+00:00 Jugador migue agregado a lista 10 en posicion: 1
+2019-11-07 21:23:47.673348+00:00 Jugador System agregado a lista 10 en posicion: 2
+2019-11-07 21:23:47.750304+00:00 jugador System en posicion 2 se activa en verde
+2019-11-07 21:24:49.836393+00:00 NUEVO JUGADOR Patrocinador Darson Jugador: angelo
+2019-11-07 21:24:49.837392+00:00 Busqueda por padre
+2019-11-07 21:24:49.845396+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 21:24:49.846387+00:00 Validando usuario padre: Darson
+2019-11-07 21:24:49.847389+00:00 Validando lista: 10
+2019-11-07 21:24:49.856398+00:00 Se ubicó la posicion 5 libre en la lista 10
+2019-11-07 21:24:49.863377+00:00 Jugador angelo agregado a lista 10 en posicion: 5
+2019-11-07 21:24:49.916371+00:00 CICLAJE
+2019-11-07 21:24:49.925341+00:00 Jugador a ciclar System
+2019-11-07 21:24:49.926362+00:00  id patrocinador del patrocinador None
+2019-11-07 21:24:49.927340+00:00 Busqueda por padre
+2019-11-07 21:24:49.928356+00:00 Busqueda por descendencia
+2019-11-07 21:24:49.929340+00:00 Busqueda lista más antigua
+2019-11-07 21:24:49.938356+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 21:24:49.943331+00:00 Validando usuario padre: Eric
+2019-11-07 21:24:49.944352+00:00 Validando lista: 9
+2019-11-07 21:24:49.953342+00:00 Se ubicó la posicion 4 libre en la lista 9
+2019-11-07 21:24:49.966321+00:00 Jugador ciclado System agregado a lista 9 en posicion: 4
+2019-11-07 21:24:50.007298+00:00 LISTA NUEVA IZQUIERDA
+2019-11-07 21:43:22.321012+00:00 NUEVO JUGADOR Patrocinador Darson Jugador: angelo
+2019-11-07 21:43:22.322013+00:00 Busqueda por padre
+2019-11-07 21:43:22.326011+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 21:43:22.327007+00:00 Validando usuario padre: Darson
+2019-11-07 21:43:22.328009+00:00 Validando lista: 10
+2019-11-07 21:43:22.333003+00:00 Se ubicó la posicion 5 libre en la lista 10
+2019-11-07 21:43:22.337005+00:00 Jugador angelo agregado a lista 10 en posicion: 5
+2019-11-07 21:43:22.363986+00:00 CICLAJE
+2019-11-07 21:43:22.369986+00:00 Jugador a ciclar System
+2019-11-07 21:43:22.370985+00:00  id patrocinador del patrocinador None
+2019-11-07 21:43:22.371981+00:00 Busqueda por padre
+2019-11-07 21:43:22.372980+00:00 Busqueda por descendencia
+2019-11-07 21:43:22.372980+00:00 Busqueda lista más antigua
+2019-11-07 21:43:22.377999+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 21:43:22.380976+00:00 Validando usuario padre: Eric
+2019-11-07 21:43:22.381975+00:00 Validando lista: 9
+2019-11-07 21:43:22.386977+00:00 Se ubicó la posicion 4 libre en la lista 9
+2019-11-07 21:43:22.393969+00:00 Jugador ciclado System agregado a lista 9 en posicion: 4
+2019-11-07 21:43:22.417958+00:00 LISTA NUEVA IZQUIERDA
+2019-11-07 21:43:46.301169+00:00 NUEVO JUGADOR Patrocinador Darson Jugador: Angelo
+2019-11-07 21:43:46.302187+00:00 Busqueda por padre
+2019-11-07 21:43:46.306167+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 21:43:46.307184+00:00 Validando usuario padre: Darson
+2019-11-07 21:43:46.308182+00:00 Validando lista: 10
+2019-11-07 21:43:46.314165+00:00 Se ubicó la posicion 5 libre en la lista 10
+2019-11-07 21:43:46.317176+00:00 Jugador Angelo agregado a lista 10 en posicion: 5
+2019-11-07 21:43:46.340397+00:00 CICLAJE
+2019-11-07 21:43:46.347380+00:00 Jugador a ciclar System
+2019-11-07 21:43:46.348394+00:00  id patrocinador del patrocinador None
+2019-11-07 21:43:46.348394+00:00 Busqueda por padre
+2019-11-07 21:43:46.349354+00:00 Busqueda por descendencia
+2019-11-07 21:43:46.350360+00:00 Busqueda lista más antigua
+2019-11-07 21:43:46.354355+00:00 Buscando posicion para el nuevo jugador
+2019-11-07 21:43:46.357370+00:00 Validando usuario padre: Eric
+2019-11-07 21:43:46.358354+00:00 Validando lista: 9
+2019-11-07 21:43:46.363350+00:00 Se ubicó la posicion 4 libre en la lista 9
+2019-11-07 21:43:46.370347+00:00 Jugador ciclado System agregado a lista 9 en posicion: 4
+2019-11-07 21:43:46.396332+00:00 LISTA NUEVA IZQUIERDA
+2019-11-08 19:59:09.763820+00:00 NUEVO JUGADOR Patrocinador Darson Jugador: angelo
+2019-11-08 19:59:09.765820+00:00 Busqueda por padre
+2019-11-08 19:59:09.769817+00:00 Buscando posicion para el nuevo jugador
+2019-11-08 19:59:09.770828+00:00 Validando usuario padre: Darson
+2019-11-08 19:59:09.771816+00:00 Validando lista: 10
+2019-11-08 19:59:09.777812+00:00 Se ubicó la posicion 5 libre en la lista 10
+2019-11-08 19:59:09.782830+00:00 Jugador angelo agregado a lista 10 en posicion: 5
+2019-11-08 19:59:09.810794+00:00 CICLAJE
+2019-11-08 19:59:09.816790+00:00 Jugador a ciclar System
+2019-11-08 19:59:09.817789+00:00  id patrocinador del patrocinador None
+2019-11-08 19:59:09.817789+00:00 Busqueda por padre
+2019-11-08 19:59:09.818801+00:00 Busqueda por descendencia
+2019-11-08 19:59:09.819788+00:00 Busqueda lista más antigua
+2019-11-08 19:59:09.824787+00:00 Buscando posicion para el nuevo jugador
+2019-11-08 19:59:09.826788+00:00 Validando usuario padre: Eric
+2019-11-08 19:59:09.827786+00:00 Validando lista: 9
+2019-11-08 19:59:09.832781+00:00 Se ubicó la posicion 4 libre en la lista 9
+2019-11-08 19:59:09.839777+00:00 Jugador ciclado System agregado a lista 9 en posicion: 4
+2019-11-08 19:59:09.861765+00:00 LISTA NUEVA IZQUIERDA
+2019-11-08 20:13:03.436084+00:00 NUEVO JUGADOR Patrocinador Darson Jugador: angelo
+2019-11-08 20:13:03.438083+00:00 Busqueda por padre
+2019-11-08 20:13:03.452078+00:00 Buscando posicion para el nuevo jugador
+2019-11-08 20:13:03.453073+00:00 Validando usuario padre: Darson
+2019-11-08 20:13:03.456082+00:00 Validando lista: 10
+2019-11-08 20:13:03.470063+00:00 Se ubicó la posicion 5 libre en la lista 10
+2019-11-08 20:13:03.481079+00:00 Jugador angelo agregado a lista 10 en posicion: 5
+2019-11-08 20:13:03.692955+00:00 CICLAJE
+2019-11-08 20:13:03.703948+00:00 Jugador a ciclar System
+2019-11-08 20:13:03.704932+00:00  id patrocinador del patrocinador None
+2019-11-08 20:13:03.705928+00:00 Busqueda por padre
+2019-11-08 20:13:03.706928+00:00 Busqueda por descendencia
+2019-11-08 20:13:03.707930+00:00 Busqueda lista más antigua
+2019-11-08 20:13:03.716921+00:00 Buscando posicion para el nuevo jugador
+2019-11-08 20:13:03.724918+00:00 Validando usuario padre: Eric
+2019-11-08 20:13:03.725924+00:00 Validando lista: 9
+2019-11-08 20:13:03.736910+00:00 Se ubicó la posicion 4 libre en la lista 9
+2019-11-08 20:13:29.327020+00:00 Jugador ciclado System agregado a lista 9 en posicion: 4
+2019-11-08 20:13:49.002175+00:00 LISTA NUEVA IZQUIERDA
+2019-11-08 20:15:48.442325+00:00 NUEVO JUGADOR Patrocinador royer Jugador: oscar
+2019-11-08 20:15:48.443309+00:00 Busqueda por padre
+2019-11-08 20:15:48.452306+00:00 Buscando posicion para el nuevo jugador
+2019-11-08 20:15:48.453305+00:00 Validando usuario padre: royer
+2019-11-08 20:15:48.454324+00:00 Validando lista: 9
+2019-11-08 20:15:48.464320+00:00 Se ubicó la posicion 4 libre en la lista 9
+2019-11-08 20:15:48.469309+00:00 Jugador oscar agregado a lista 9 en posicion: 4
+2019-11-08 20:15:48.559242+00:00 LISTA NUEVA IZQUIERDA
+2019-11-08 20:15:48.606236+00:00 Jugador royer agregado a lista 16 en posicion: 0
+2019-11-08 20:15:48.614212+00:00 Jugador luz agregado a lista 16 en posicion: 1
+2019-11-08 20:15:48.622227+00:00 Jugador oscar agregado a lista 16 en posicion: 2
+2019-11-08 20:41:49.226140+00:00 NUEVO JUGADOR Patrocinador luiscarlos Jugador: doris
+2019-11-08 20:41:49.227140+00:00 Busqueda por padre
+2019-11-08 20:41:49.231137+00:00 Buscando posicion para el nuevo jugador
+2019-11-08 20:41:49.232154+00:00 Validando usuario padre: luiscarlos
+2019-11-08 20:41:49.233152+00:00 Validando lista: 9
+2019-11-08 20:41:49.239135+00:00 Se ubicó la posicion 5 libre en la lista 9
+2019-11-08 20:41:49.242146+00:00 Jugador doris agregado a lista 9 en posicion: 5
+2019-11-08 20:41:49.334141+00:00 CICLAJE
+2019-11-08 20:41:49.339074+00:00 Jugador a ciclar Eric
+2019-11-08 20:41:49.343089+00:00  id patrocinador del patrocinador System
+2019-11-08 20:41:49.344074+00:00 Busqueda por padre
+2019-11-08 20:41:49.348086+00:00 Buscando posicion para el nuevo jugador
+2019-11-08 20:41:49.349072+00:00 Validando usuario padre: System
+2019-11-08 20:41:49.350071+00:00 Validando lista: 10
+2019-11-08 20:41:49.355066+00:00 Se ubicó la posicion 3 libre en la lista 10
+2019-11-08 20:41:49.360065+00:00 Jugador ciclado Eric agregado a lista 10 en posicion: 3
