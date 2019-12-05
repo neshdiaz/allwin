@@ -76,9 +76,8 @@ def asignar_jugador(nuevo_jugador):
 
         # bloque de ciclaje de jugadores
         elif nueva_ubicacion['posicion'] == 5:
+            #ciclo la lista en la nueva ubicacion
             ret_ciclado = lista_ciclar(nueva_ubicacion['lista'])
-            while ret_ciclado['posicion'] == 5:
-                ret_ciclado = lista_ciclar(ret_ciclado['lista'])
             if ret_ciclado['posicion'] == 4:
                 # aquí debo cerrar la lista izquierda
                 lista_cerrar_izq(ret_ciclado['lista'])
@@ -87,6 +86,17 @@ def asignar_jugador(nuevo_jugador):
                 # aquí debo cerrar la lista derecha
                 lista_cerrar_der(ret_ciclado['lista'])
                 lista_nueva_der(ret_ciclado['lista'])
+            #bloque de multiples asignaciones en posición de ciclaje
+            while ret_ciclado['posicion'] == 5:
+                ret_ciclado = lista_ciclar(ret_ciclado['lista'])
+                if ret_ciclado['posicion'] == 4:
+                    # aquí debo cerrar la lista izquierda
+                    lista_cerrar_izq(ret_ciclado['lista'])
+                    lista_nueva_izq(ret_ciclado['lista'])
+                elif ret_ciclado['posicion'] == 6:
+                    # aquí debo cerrar la lista derecha
+                    lista_cerrar_der(ret_ciclado['lista'])
+                    lista_nueva_der(ret_ciclado['lista'])
 
         # Creacion de lista derecha
         elif nueva_ubicacion['posicion'] == 6:
@@ -159,6 +169,7 @@ def buscar_ubicacion(patrocinador):
 
     # if patrocinador is not None:
     ubicacion = lista_buscar_padre(patrocinador)
+
     if ubicacion['posicion'] != -1:
         return ubicacion
     else:
@@ -344,7 +355,7 @@ def lista_ciclar(lista):
     if nueva_ubicacion['posicion'] == -1:
         log_registrar('log.txt', 'no existen posiciones para ciclar')
     else:
-        nuevo_juego = Juego(lista=lista,
+        nuevo_juego = Juego(lista=nueva_ubicacion['lista'],
                             jugador=jugador0,
                             posicion=nueva_ubicacion['posicion'])
 
@@ -393,7 +404,7 @@ def lista_nueva_izq(lista):
     nuevo_juego1.save()
     nuevo_juego1.refresh_from_db()
     nuevo_juego2.save()
-    nuevo_juego1.refresh_from_db()
+    nuevo_juego2.refresh_from_db()
 
     log_registrar('log.txt', 'Jugador ' + str(jugador0[0]) +
                   ' agregado a lista ' + str(nueva_lista) + ' en posicion: 0')
